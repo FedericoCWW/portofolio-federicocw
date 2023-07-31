@@ -1,0 +1,115 @@
+/* KEYFRAMES */
+@keyframes slide-in{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+div .item{
+    animation-name: slide-in;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: black;
+}
+
+h1{
+
+    justify-content:flex-start;
+    font-size: 60px;
+}
+
+.nav-link{
+    color: white;
+    padding-top: 20px;
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+.nav{
+    --bs-nav-link-hover-color: orange;
+}
+
+.header{
+    padding-top: 10%; 
+    padding-bottom: 10%;
+}
+
+.seccion1{
+    background-color: black;
+}
+
+a.nav-link {
+    font-size: x-large;
+}
+
+.seccion2{
+    color: white;
+}
+
+.seccion2 ul li:before{
+    color: white;
+}
+
+.seccion2 ul li.active{
+    color: orange;
+}
+
+.seccion2 ul{
+    display: flex;
+}
+
+.seccion2 ul li{
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.seccion2 ul li:hover{
+    color: orange;
+}
+
+
+.seccion2 nav{
+    width: 200px;
+}
+
+.seccion2 .a1 p{
+    font-size: x-large;
+}
+
+.pl-5{
+    padding-left: 5%;
+}
+
+.wrapper_info p{
+    color: white;
+}
+
+.wrapper_info .container{
+    font-size: x-large;
+    margin-left: 5%;
+    
+}
+
+.nav-item p{
+    padding-right: 50px;
+}
+
+.row img{
+    padding-bottom: 15%;
+}
+
+.text-orange{
+    color: orange;
+}
