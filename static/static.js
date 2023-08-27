@@ -19,5 +19,8 @@ for(var i = 0; i < li_elems.length; i++){
         else if(li_value == "a3"){
             document.querySelector("." + li_value).style.display = "block";
         }
+        else if(li_value == "a4"){
+            document.querySelector("." + li_value).style.display = "block";
+        }
     });
 }

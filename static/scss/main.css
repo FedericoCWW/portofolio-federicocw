@@ -108,17 +108,24 @@ a.nav-link {
 
 .wrapper_info .container {
   font-size: x-large;
-  margin-left: 5%;
 }
 
 .nav-item p {
   padding-right: 50px;
 }
 
-.row img {
+.a4 .row img {
   padding-bottom: 15%;
 }
 
 .text-orange {
   color: orange;
+}
+
+.card-title {
+  padding-top: 5px;
+}
+
+.a3 {
+  padding-left: 0;
 }/*# sourceMappingURL=main.css.map */

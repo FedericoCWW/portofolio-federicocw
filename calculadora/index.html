@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <div class="container calculadora">
+        <h1>CALCULADORA</h1>
+        <input type="text" id="entrada">
+        <div class="botones">
+            <div class="boton-group">
+                <button class="boton-num" id="b1">1</button>
+                <button class="boton-num" id="b2">2</button>
+                <button class="boton-num" id="b3">3</button>
+                <button class="boton-op" id="b+" onclick="Suma()">+</button>
+            </div>
+            <div class="boton-group">
+                <button class="boton-num" id="b4">4</button>
+                <button class="boton-num" id="b5">5</button>
+                <button class="boton-num" id="b6">6</button>
+                <button class="boton-op" id="b-" onclick="Resta()">-</button>
+            </div>
+            <div class="boton-group">
+                <button class="boton-num" id="b7">7</button>
+                <button class="boton-num" id="b8">8</button>
+                <button class="boton-num" id="b9">9</button>
+                <button class="boton-op" id="bx" onclick="Multiplicacion()">X</button>
+            </div>
+            <div class="boton-group">
+                <button class="boton-op " id="bC" onclick="clearDisplay()">C</button>
+                <button class="boton-num " id="b0">0</button>
+                <button class="boton-op " id="b=" onclick="Resultado()">=</button>
+                <button class="boton-op " id="b/" onclick="Division()">÷</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
